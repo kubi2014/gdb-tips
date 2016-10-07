@@ -74,4 +74,4 @@ Check the value of pointer tmpInt:
 $1 = (int *) 0x0
 ```
 
-It can be seen that the program was crash due to a write statement to a null pointer (tmpInt)
+It can be seen that the program was crashed due to a write statement to a null pointer (tmpInt).
