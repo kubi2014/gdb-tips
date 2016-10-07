@@ -1,7 +1,7 @@
 Run your first gdb session with the following program:
 
 ```C
-File: intro.c
+/* File: intro.c */
 #include "stdio.h"
 
 void crashme()
