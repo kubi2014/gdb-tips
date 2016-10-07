@@ -8,11 +8,14 @@ void crashme()
   *tmpInt = 0;
 }
 
-int main(void) 
+int main(int argc, const char* argv[])
 {
   printf("Hello world !\n");
 
-  crashme();
+  if (argc > 1)
+  {
+    crashme();
+  }
 
   printf("Bye this world !\n");
 
