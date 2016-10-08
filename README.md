@@ -1,2 +1,1 @@
-# gdb-tips
-under construction ...
+[Index](tips/index.md)
