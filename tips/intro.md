@@ -33,7 +33,7 @@ gcc -g intro.c -o intro
 ```
 
 Load and run that program with gdb:
-```bash
+```text
 biwiki@biwiki:~/github/gdb-tips/programs$ gdb intro
 GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.04) 7.11.1
 Copyright (C) 2016 Free Software Foundation, Inc.
@@ -58,7 +58,7 @@ Bye this world !
 ```
 
 Now run it again but with an argument, this will crash the program:
-```bash
+```text
 (gdb) run abc
 Starting program: /home/biwiki/github/gdb-tips/programs/intro abc
 Hello world !
@@ -69,7 +69,7 @@ Program received signal SIGSEGV, Segmentation fault.
 ```
 
 Check the value of pointer tmpInt:
-```bash
+```text
 (gdb) print tmpInt
 $1 = (int *) 0x0
 ```
