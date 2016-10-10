@@ -1,4 +1,5 @@
 Breakpoints is used to make program stop at certain points and examine data for troubleshouting.
+
 ```C
 /* File: break.c */
 #include "stdio.h"
@@ -17,9 +18,11 @@ int main(int argc, const char* argv[])
   return 0;
 }
 ```
+
 ```bash
 gcc -g break-addr.c -o break-addr
 ```
+
 ```text
 biwiki@ubuntu:~/github/gdb-tips/programs$ gdb break-addr 
 GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
